@@ -67,7 +67,7 @@ bare_linux_options() {
             npm install >/dev/null 2>&1
             echo -e "\e[32m* Installation Completed\e[0m"
 
-            # Start Project Equinox
+            # Start Project Phoenix
             cd "$install_dir/Project-Phoenix/config" || exit
             # Prompt the user for values
             read -p "Enter developer ID: " dev_id
@@ -249,7 +249,7 @@ EOF'
     done
 }
 
-# This script was made by Josh Severo (https://joshsevero.dev)
+# This script was made by Tanner Schermerhorn (https://tannerschermerhorn.dev)
 # Function for Docker Container options
 docker_container_options() {
     while true; do
@@ -298,5 +298,5 @@ while true; do
         ;;
     *) echo -e "\e[32m* Invalid option. Please choose a valid option.\e[0m" ;;
     esac
-    # This script was made by Josh Severo (me@joshsevero.dev)
+    # This script was made by Tanner Schermerhorn (me@tannerschermerhorn.dev)
 done 
