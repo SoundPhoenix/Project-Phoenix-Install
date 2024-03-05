@@ -1,7 +1,8 @@
 # Project-Phoenix-Install
+[![License](https://img.shields.io/badge/license-MIT-blue)](https://opensource.org/licenses/MIT)
+[![Stars](https://img.shields.io/github/stars/SoundPhoenix/Project-Phoenix-Install.svg)](https://github.com/KevinNovak/Discord-Bot-TypeScript-Template/stargazers)
+[![Pull Requests](https://img.shields.io/badge/Pull%20Requests-Closed-red)](https://github.com/KevinNovak/Discord-Bot-TypeScript-Template/pulls)
 
-## Lisence
-![License-MIT](https://img.shields.io/badge/License-MIT-blue.svg) 
 
 ## Current OS Compatibility 
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white) ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white) ![Debian](https://img.shields.io/badge/Debian-D70A53?style=for-the-badge&logo=debian&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![macOS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0)
