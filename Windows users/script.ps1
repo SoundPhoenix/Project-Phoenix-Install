@@ -1,6 +1,3 @@
-Here is the equivalent PowerShell script based on the provided Bash script:
-
-```powershell
 Write-Host "
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 #           Project Phoenix Installation Script         #
