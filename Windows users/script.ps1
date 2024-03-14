@@ -61,7 +61,7 @@ function BareLinuxOptions {
                 Write-Host "* Switching to the specified directory: $install_dir" -ForegroundColor Green
                 Set-Location -Path $install_dir -ErrorAction Stop
                 Remove-Item -Path Project-Phoenix -Recurse -Force
-                git clone https://github.com/soundphoenix428/Project-Phoenix > $null 2>&1
+                git clone https://github.com/SoundPhoenix/Project-Phoenix > $null 2>&1
                 Set-Location -Path "$install_dir/Project-Phoenix" -ErrorAction Stop
                 npm install > $null 2>&1
                 Write-Host "* Installation Completed" -ForegroundColor Green
