@@ -5,6 +5,8 @@ Write-Host "
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 " -ForegroundColor Green
 
+# This script was made by Tanner Schermerhorn (https://tannerschermerhorn.dev) and Josh Severo (https://joshsevero.dev)
+
 # Check if user is Powershell
 if (-not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] 'Administrator')) {
     Write-Host "* This script must be executed via Powershell user." -ForegroundColor Green
@@ -305,4 +307,4 @@ while ($true) {
 }
 ```
 
-# This script was made by Tanner Schermerhorn (me@tannerschermerhorn.dev)
+# This script was made by Tanner Schermerhorn (me@tannerschermerhorn.dev) and Josh Severo (me@joshsevero.dev)
