@@ -39,7 +39,7 @@ func bareLinuxOptions() {
         }
     }
 }
-
+// This script was made by Tanner Schermerhorn (me@tannerschermerhorn.dev) and Josh Severo (me@joshsevero.dev)
 // Function for Docker Container options
 func dockerContainerOptions() {
     while true {
@@ -91,3 +91,4 @@ while true {
         }
     }
 }
+// This script was made by Tanner Schermerhorn (https://tannerschermerhorn.dev) and Josh Severo (https://joshsevero.dev)
