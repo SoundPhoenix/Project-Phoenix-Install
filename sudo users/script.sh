@@ -46,7 +46,7 @@ bare_linux_options() {
                 sudo npm install pm2 -g >/dev/null 2>&1
             fi
 
-            # Install Project Equinox app
+            # Install Project Phoenix App
             echo -e "\e[32m* Starting Installation\e[0m"
             # Prompt user for the directory to install the bot
             echo -e "\e[32m* Please enter the directory where you want to install the bot\e[0m"
@@ -62,7 +62,7 @@ bare_linux_options() {
             echo -e "\e[32m* Switching to the specified directory: $install_dir\e[0m"
             cd "$install_dir" || exit 1
             rm -r -f Project-Phoenix
-            git clone https://github.com/soundphoenix428/Project-Phoenix >/dev/null 2>&1
+            git clone https://github.com/SoundPhoenix/Project-Phoenix >/dev/null 2>&1
             cd $install_dir/Project-Phoenix
             npm install >/dev/null 2>&1
             echo -e "\e[32m* Installation Completed\e[0m"
@@ -249,7 +249,9 @@ EOF'
     done
 }
 
-# This script was made by Tanner Schermerhorn (https://tannerschermerhorn.dev)
+# This script was made by Tanner Schermerhorn (https://tannerschermerhorn.dev) and Josh Severo (https://joshsevero.dev)
+
+
 # Function for Docker Container options
 docker_container_options() {
     while true; do
@@ -298,5 +300,5 @@ while true; do
         ;;
     *) echo -e "\e[32m* Invalid option. Please choose a valid option.\e[0m" ;;
     esac
-    # This script was made by Tanner Schermerhorn (me@tannerschermerhorn.dev)
+    # This script was made by Tanner Schermerhorn (me@tannerschermerhorn.dev) and Josh Severo (me@joshsevero.dev)
 done 
