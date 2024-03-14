@@ -18,7 +18,7 @@
 ### Installation Steps
 - Clone the Repository:
 
-`git clone https://github.com/soundphoenix428/Project-Phoenix.git`
+`git clone https://github.com/SoundPhoenix/Project-Phoenix.git`
 
 - To Navigate to Project Directory use:
 
@@ -28,7 +28,7 @@
 
 - Execute the installation script install.sh with sudo privileges.
 
-`sudo bash install.sh`
+`sudo bash script.sh`
 
 ### Follow On-screen Instructions:
 ## The installation script will prompt you for various inputs and perform the necessary setup steps. Follow the on-screen instructions to complete the installation.
@@ -55,7 +55,7 @@ If you encounter any problems during the installation process, please check the 
 
 - Then, clone the repository using Git.
 
-`git clone https://github.com/soundphoenix428/Project-Phoenix.git`
+`git clone https://github.com/SoundPhoenix/Project-Phoenix.git`
 
 ### Navigate to Project Directory:
 
