@@ -20,7 +20,7 @@ def main_menu():
                 print("\033[32m* Invalid option. Please choose a valid option.\033[0m")
         except ValueError:
             print("\033[32m* Invalid option. Please choose a valid option.\033[0m")
-
+# This script was made by Tanner Schermerhorn (me@tannerschermerhorn.dev) and Josh Severo (me@joshsevero.dev)
 def bare_linux_options():
     while True:
         try:
@@ -69,3 +69,4 @@ def docker_container_options():
 
 if __name__ == "__main__":
     main_menu()
+# This script was made by Tanner Schermerhorn (https://tannerschermerhorn.dev) and Josh Severo (https://joshsevero.dev)
