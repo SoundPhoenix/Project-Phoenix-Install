@@ -1,7 +1,7 @@
 Write-Host "
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 #           Project Phoenix Installation Script         #
-#       This Script only works on Powershell            #
+#          This Script only works on Powershell         #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 " -ForegroundColor Green
 
